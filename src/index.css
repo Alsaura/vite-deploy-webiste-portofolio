@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* styles.css */
+@font-face {
+  font-family: "Bigilla-Bold";
+  src: url("../public/font/Bigilla-Bold.otf") format("opentype");
+}
+
+.custom-font {
+  font-family: "Bigilla-Bold", sans-serif;
+  /* Ganti 'sans-serif' dengan fallback font yang sesuai jika diperlukan */
+}
+
+.underline {
+  border-bottom: 1px solid white; /* Atur warna, ketebalan, dan gaya sesuai kebutuhan */
+}
+
+body {
+  background-color: #000000;
+  haight: auto;
+}
+body {
+  background: linear-gradient(45deg, #2d2f3e 0%, #1b1a2a 50%, #221e35 100%)
+    center;
+  background-size: 100% 100% !important;
+  padding-bottom: 100px;
+}
+
+span {
+  font-family: poppins;
+}
